@@ -19,7 +19,7 @@
 <header class="site-head"  style="background-image: url(https://blog.ghost.org/content/images/2013/Nov/cover.png)" >
   <div class="vertical">
     <div class="site-head-content inner">
-       <a class="blog-logo" href="http://blog.csdn.net/qibin0506"><img src="https://blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
+       <a class="blog-logo" href="#"><img src="https://blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
       <h1 class="blog-title">Loader's Blog</h1>
       <h2 class="blog-description">this is Loader's Blog</h2>
     </div>
@@ -30,7 +30,7 @@
 <div id="content"></div>
  <nav id="nav" class="pagination" role="pagination"></nav>
 </main>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="./js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="./js/index.js"></script>
 <script type="text/javascript" src="./js/category.auto.js"></script>
@@ -53,7 +53,7 @@
 		if(page < count) {
 			document.getElementById("nav").innerHTML += "<a class='older-posts' href='?page="+(page + 1)+"'>← Older Posts</a>"
 		}
-		
+
 		if (page <= count) {
 			var result = get(page)
 			for (var i=0;i<result.length;i++) {
@@ -61,7 +61,7 @@
 			}
 		}
 	}
-	
+
 </script>
 </body>
 </html>
